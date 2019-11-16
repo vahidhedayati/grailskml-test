@@ -1,6 +1,6 @@
 package tt
 
-import grails.kml.plugin.utils.KmlHelper
+import org.grails.plugins.kml.utils.KmlHelper
 
 class BootStrap {
 

@@ -32,5 +32,9 @@ if (Environment.isDevelopmentMode() && targetDir != null) {
         }
     }
     logger("StackTrace", ERROR, ['FULL_STACKTRACE'], false)
+    logger('org.grails.plugins.kml', ERROR, ['STDOUT'], false)
+    logger('org.grails.plugins.kml', DEBUG, ['STDOUT'], false)
+    logger('org.grails.plugins.kml', WARN, ['STDOUT'], false)
+    logger('org.grails.plugins.kml', INFO, ['STDOUT'], false)
 }
 root(ERROR, ['STDOUT'])
